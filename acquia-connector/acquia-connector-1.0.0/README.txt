@@ -32,7 +32,7 @@ STEPS:
 
 3.Compress the modified ESB as wso2esb-4.8.1.zip and copy that zip file to the location <Acquia_CONNECTOR_HOME>/Acquia/ org.wso2.carbon.connector.acquia.contextdb /repository/.
 
-4.Update the property file AcquiaContextDb.properties found in 1.0.0/org.wso2.carbon.connector/src/test/resources/artifacts/ESB/connector/config as given below:
+4.Update the property file AcquiaContextDb.properties found in acquia/acquia-connector/acquia-connector-1.0.0/org.wso2.carbon.connector/src/test/resources/artifacts/ESB/connector/config as given below:
 
     proxyDirectoryRelativePath=/../src/test/resources/artifacts/ESB/config/proxies/AcquiaContextDb/
     requestDirectoryRelativePath=/../src/test/resources/artifacts/ESB/config/restRequests/AcquiaContextDb/
@@ -52,5 +52,5 @@ STEPS:
     eventName=Campaign Action
     eventSource=TruCentric
 
-5.Navigate to <Acquia_CONNECTOR_HOME>/Acquia/org.wso2.carbon.connector.acquia.contextdb/ and run the following command.
+5.Navigate to acquia/acquia-connector/acquia-connector-1.0.0/org.wso2.carbon.connector.acquia.contextdb/ and run the following command.
   $ mvn clean install
