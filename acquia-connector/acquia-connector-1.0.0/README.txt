@@ -30,7 +30,7 @@ STEPS:
 
 2.Get the access credentials for Lift Web Key and S3 Bucket.
 
-3.Compress the modified ESB as wso2esb-4.8.1.zip and copy that zip file to the location <Acquia_CONNECTOR_HOME>/Acquia/ org.wso2.carbon.connector.acquia.contextdb /repository/.
+3.Compress the modified ESB as wso2esb-4.8.1.zip and copy that zip file to the location acquia/acquia-connector/acquia-connector-1.0.0/org.wso2.carbon.connector.acquia.contextdb/repository/.
 
 4.Update the property file AcquiaContextDb.properties found in acquia/acquia-connector/acquia-connector-1.0.0/org.wso2.carbon.connector/src/test/resources/artifacts/ESB/connector/config as given below:
 
