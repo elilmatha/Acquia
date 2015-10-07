@@ -20,7 +20,7 @@
   ~ */
   -->
 
-<component name="events" type="synapse/template" package="org.wso2.carbon.connectors">
+<component name="events" type="synapse/template" >
     <subComponents>
         <component name="createNewEvent">
             <file>createNewEvent.xml</file>
