@@ -20,7 +20,7 @@
   -->
 
 <connector>
-    <component name="acquiaContextDb" package="org.wso2.carbon.connector" >
+    <component name="acquiaContextDb" >
         <dependency component="config"/>
         <dependency component="visitors"/>
         <dependency component="segments"/>
