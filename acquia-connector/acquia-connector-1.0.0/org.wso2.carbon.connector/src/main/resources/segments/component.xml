@@ -19,7 +19,7 @@
   ~ */
   -->
 
-<component name="segments" type="synapse/template" package="org.wso2.carbon.connectors">
+<component name="segments" type="synapse/template">
     <subComponents>
         <component name="getAllSegments">
             <file>getAllSegments.xml</file>
